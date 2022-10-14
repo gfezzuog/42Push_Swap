@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: sgerace <sgerace@student.42.fr>            +#+  +:+       +#+         #
+#    By: gfezzuog <gfezzuog@student.42rome.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/05/20 17:44:25 by dgioia            #+#    #+#              #
-#    Updated: 2022/10/11 14:35:03 by sgerace          ###   ########.fr        #
+#    Created: 2022/10/14 17:38:53 by gfezzuog          #+#    #+#              #
+#    Updated: 2022/10/14 17:38:54 by gfezzuog         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
