@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gfezzuog <gfezzuog@student.42roma.it>      +#+  +:+       +#+        */
+/*   By: gfezzuog <gfezzuog@student.42rome.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 12:56:26 by gfezzuog          #+#    #+#             */
-/*   Updated: 2022/10/14 12:56:27 by gfezzuog         ###   ########.fr       */
+/*   Updated: 2022/10/14 17:59:12 by gfezzuog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,9 @@ int	main(int argc, char **argv)
 
 	stack_a = NULL;
 	stack_b = NULL;
-	if (argc < 2 || upload_list(argc, argv, &stack_a) == 1)
+	if (argc == 1)
+		return (0);
+	if (upload_list(argc, argv, &stack_a) == 1)
 	{
 		return (ft_printf("Error\n"));
 	}
